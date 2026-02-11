@@ -10,13 +10,13 @@
   </p>
 
   <p>
-    <a href="https://linkedin.com/in/YOUR_LINKEDIN_HANDLE" target="_blank">
+    <a href="https://linkedin.com/in/julian-hilgemann/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
-    <a href="mailto:your.email@example.com">
+    <a href="mailto:hilgemann.julian@gmail.com">
       <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
     </a>
-    <a href="https://yourwebsite.com">
+    <a href="https://julianhilgemann.com">
       <img src="https://img.shields.io/badge/Website-View_Portfolio-100000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
     </a>
   </p>
@@ -76,7 +76,28 @@ A selection of production-grade systems designed to support real business decisi
 
 <div align="center">
   <br/>
-  <a href="https://yourwebsite.com">
+  <a href="https://julianhilgemann.com">
     <b>Let's design your decision system ➜</b>
   </a>
 </div>
+
+--
+
+### 📺 AgenticBI: The Channel (New)
+
+**AgenticBI sits at the intersection of Power BI, Analytics Engineering, and Agentic AI.**
+
+<div align="left">
+  <a href="https://youtube.com/@AgenticBI" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-Subscribe%20to%20@AgenticBI-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="AgenticBI YouTube"/>
+  </a>
+</div>
+
+This channel is dedicated to the **decision layer**: where metrics, models, and interfaces come together to drive action—not just reporting. 
+
+**Keep an eye out for upcoming deep dives on:**
+* Building **Agentic Workflows** for Business Intelligence.
+* **Power BI Systems** & Advanced KPI Logic.
+* **Forecasting Concepts** & AI-assisted Engineering.
+
+---
