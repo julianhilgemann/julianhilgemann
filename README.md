@@ -1,6 +1,8 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=300&section=header&text=Building%20the%20Decision%20Layer&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Where%20Data%20Becomes%20Action&descAlignY=51&descAlign=62" alt="Header" width="100%"/>
+  <div align="center">
+  <img src="profile-banner.png" alt="Building the Decision Layer" width="100%"/>
+  </div>
 
   <h3>Analytics Engineer | Power BI Specialist | Financial Modeler</h3>
 
