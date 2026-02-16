@@ -1,105 +1,41 @@
 <div align="center">
 
-  <div align="center">
-  <img src="profile-banner.png" alt="Building the Decision Layer" width="100%"/>
-  </div>
+<img src="https://github.com/julianhilgemann/dataviz/blob/main/heatmap_yields/output/yield_curve_heatmap.png" alt="Yield Curve Heatmap" width="100%"/>
 
-  <h3>Analytics Engineer | Power BI Specialist | Financial Modeler</h3>
+**Julian Hilgemann**
 
-  <p>
-    <b>Most companies have data. Few have decision systems.</b><br/>
-    I bridge the gap between <i>Strategic Finance</i> and <i>Analytics Engineering</i>.
-  </p>
+Analytics Engineer · Power BI · Financial Modeling
 
-  <p>
-    <a href="https://linkedin.com/in/julian-hilgemann/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="mailto:hilgemann.julian@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-    </a>
-    <a href="https://julianhilgemann.com">
-      <img src="https://img.shields.io/badge/Website-View_Portfolio-100000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-    </a>
-  </p>
+[LinkedIn](https://linkedin.com/in/julian-hilgemann/) · [Email](mailto:hilgemann.julian@gmail.com) · [Portfolio](https://julianhilgemann.com)
 
 </div>
 
 ---
 
-### 🧠 The Philosophy: Systems, Not Static Structures
+I work on the layer between data infrastructure and business decisions — semantic models, KPI logic, and the interfaces where numbers actually get used. Most of my time goes into Power BI, DAX, and the engineering underneath: dbt, dimensional modeling, and making sure the math holds up under scrutiny.
 
-Dashboards often fail because they are treated as design projects. I treat them as **engineering projects**.
-
-My work focuses on the "last mile" of analytics—the semantic model, KPI logic, and visual interface where decisions actually happen. But beneath the surface, I build the **Fintech-Grade Engineering** layers that ensure those numbers are trusted, scalable, and audit-ready.
+My background is in strategic finance and analytics, with a focus on fintech and lending. I care about things being correct before they look good.
 
 ---
 
-### 🛠️ The Architecture
+### Projects
 
-I operate across the full "Decision Layer" stack, from raw stochastic modeling to the executive interface.
-
-<div align="center">
-
-| **The Interface (Decision Layer)** | **The Engine (Engineering Layer)** | **The Intelligence (Modeling Layer)** |
-| :---: | :---: | :---: |
-| _"Clear, trustworthy signals"_ | _"The reason it doesn't break"_ | _"Predicting what comes next"_ |
-| <img src="https://skillicons.dev/icons?i=powerbi,figma" /> | <img src="https://skillicons.dev/icons?i=duckdb,dbt,python,postgres,sql" /> | <img src="https://skillicons.dev/icons?i=r,pytorch,tensorflow" /> |
-| **Power BI** • **DAX** • **UI/UX** | **dbt** • **Kimball** • **DuckDB** | **Prophet** • **Agentic AI** • **Econometrics** |
-
-</div>
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| [**Vantage Alpin**](https://github.com/julianhilgemann/BI-Pipeline) | End-to-end analytics pipeline for a simulated e-commerce business. Synthetic data generation (Poisson demand), dbt transformations, Kimball modeling, Power BI reporting layer. | Python, dbt, DuckDB, Power BI |
+| [**Energy Trading Dashboard**](https://github.com/julianhilgemann/dashboard-gallery/tree/main/energy-trading-dashboard) | Decision interface for energy key account managers. Spot market correlations, geospatial demand, dark-mode layout designed in Figma. | Power BI, DAX, Figma |
+| [**Agentic Financial Twin**](https://github.com/julianhilgemann/Portfolio) | Proof of concept: agents that spin up a data stack from a static Excel file. Includes Prophet-based revenue forecasting. | Python, LLM Agents, Prophet |
 
 ---
 
-### 📂 The Decision Systems (Projects)
+### What I work with
 
-A selection of production-grade systems designed to support real business decisions.
-
-| System | Role | Tech Stack | Business Context |
-| :--- | :--- | :--- | :--- |
-| **[Vantage Alpin: Financial Engine](https://github.com/julianhilgemann/BI-Pipeline)** | **Analytics Engineering** | `dbt` `DuckDB` `Python` `Kimball` | **The Single Source of Truth.** Replaces legacy reporting with a dynamic Modern Data Stack. Features stochastic demand simulation (Poisson processes) and strict zero-sum marketing allocation to ensure audit-grade financial reporting. |
-| **[Energy Trading Cockpit](https://github.com/julianhilgemann/dashboard-gallery/tree/main/energy-trading-dashboard)** | **Decision Interface** | `Power BI` `Figma` `DAX` | **Actionable Intelligence.** A dark-mode decision cockpit for Key Account Managers in the energy sector. Visualizes Spot Market correlations and geospatial demand to drive immediate sales actions. |
-| **[Agentic Financial Twin](https://github.com/julianhilgemann/Portfolio)** | **Future-Proofing** | `Agentic AI` `Prophet` `LLM` | **Rapid Data Function.** A Proof of Concept that instantiates an entire end-to-end data stack from a static Excel contract. Uses Agents to write code and Prophet for regime-aware revenue forecasting. |
+**Interface:** Power BI, DAX, Figma
+**Engineering:** dbt, DuckDB, PostgreSQL, Python, SQL
+**Modeling:** Time series forecasting, econometrics, Prophet
 
 ---
 
-### 🎯 Core Focus Areas
+### AgenticBI
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Focus-Time%20Series%20Econometrics-0F172A?style=flat-square&logo=google-analytics&logoColor=white" />
-  <img src="https://img.shields.io/badge/Focus-Financial%20Modeling-0F172A?style=flat-square&logo=google-sheets&logoColor=white" />
-  <img src="https://img.shields.io/badge/Focus-GenAI%20%26%20Agents-0F172A?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Focus-IBCS%20Reporting%20Standards-0F172A?style=flat-square&logo=powerbi&logoColor=white" />
-</div>
-
-<br/>
-
-> *"A dashboard metric isn’t just a number. It’s the visible surface of a deeper system."*
-
-<div align="center">
-  <br/>
-  <a href="https://julianhilgemann.com">
-    <b>Let's design your decision system ➜</b>
-  </a>
-</div>
-
----
-
-### 📺 AgenticBI: The Channel (New)
-
-**AgenticBI sits at the intersection of Power BI, Analytics Engineering, and Agentic AI.**
-
-<div align="left">
-  <a href="https://youtube.com/@AgenticBI" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-Subscribe%20to%20@AgenticBI-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="AgenticBI YouTube"/>
-  </a>
-</div>
-
-This channel is dedicated to the **decision layer**: where metrics, models, and interfaces come together to drive action—not just reporting. 
-
-**Keep an eye out for upcoming deep dives on:**
-* Building **Agentic Workflows** for Business Intelligence.
-* **Power BI Systems** & Advanced KPI Logic.
-* **Forecasting Concepts** & AI-assisted Engineering.
-
----
+I run a [YouTube channel](https://youtube.com/@AgenticBI) about Power BI, analytics engineering, and where agentic AI fits into BI workflows. Early stage — more content coming.
