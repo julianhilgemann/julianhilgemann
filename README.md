@@ -32,10 +32,12 @@ I'm also genuinely enthusiastic about generative AI and LLM-based workflows — 
 
 ### What I work with
 
-**BI & Interface:** Power BI, DAX, Tabular Editor, Figma
-**Engineering:** SQL (Postgres), dbt, DuckDB, Python, Git
-**Modeling:** Time series forecasting, econometrics, scikit-learn, Prophet
-**Languages:** German (native), English (C1), Russian (C1)
+| | |
+| :--- | :--- |
+| **BI & Interface** | Power BI, DAX, Tabular Editor, Figma |
+| **Engineering** | SQL (Postgres), dbt, DuckDB, Python, Git |
+| **Modeling** | Time series forecasting, econometrics, scikit-learn, Prophet |
+| **Languages** | German (native), English (C1), Russian (C1) |
 
 ---
 
