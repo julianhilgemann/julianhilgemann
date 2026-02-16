@@ -4,17 +4,19 @@
 
 **Julian Hilgemann**
 
-Analytics Engineer · Power BI · Financial Modeling
+Business Analyst · Power BI · Analytics Engineering
 
-[LinkedIn](https://linkedin.com/in/julian-hilgemann/) · [Email](mailto:hilgemann.julian@gmail.com) · [Portfolio](https://julianhilgemann.com)
+[LinkedIn](https://linkedin.com/in/julian-hilgemann/) · [Email](mailto:hilgemann.julian@gmail.com) · [Website](https://julianhilgemann.com)
 
 </div>
 
 ---
 
-I work on the layer between data infrastructure and business decisions — semantic models, KPI logic, and the interfaces where numbers actually get used. Most of my time goes into Power BI, DAX, and the engineering underneath: dbt, dimensional modeling, and making sure the math holds up under scrutiny.
+I work on the layer between data infrastructure and business decisions — semantic models, KPI logic, and the reporting interfaces where numbers actually get used. Day to day that means Power BI, DAX, dbt, and SQL, with Python for anything that needs modeling or automation.
 
-My background is in strategic finance and analytics, with a focus on fintech and lending. I care about things being correct before they look good.
+My background is in economics and econometrics (B.Sc. Business Administration, graduate work in quantitative economics and time series). Professionally I've spent the last 2.5 years in fintech, building revenue forecasting models, lead-scoring pipelines, funnel analytics, and investor-grade reporting across a portfolio covering €4bn+ in annual volume.
+
+I'm also genuinely enthusiastic about generative AI and LLM-based workflows — I use agentic tooling daily for prototyping, analysis, and context engineering, and I think the intersection of GenAI and analytics engineering is where a lot of the interesting work is heading.
 
 ---
 
@@ -30,9 +32,10 @@ My background is in strategic finance and analytics, with a focus on fintech and
 
 ### What I work with
 
-**Interface:** Power BI, DAX, Figma
-**Engineering:** dbt, DuckDB, PostgreSQL, Python, SQL
-**Modeling:** Time series forecasting, econometrics, Prophet
+**BI & Interface:** Power BI, DAX, Tabular Editor, Figma
+**Engineering:** SQL (Postgres), dbt, DuckDB, Python, Git
+**Modeling:** Time series forecasting, econometrics, scikit-learn, Prophet
+**Languages:** German (native), English (C1), Russian (C1)
 
 ---
 
