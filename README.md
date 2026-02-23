@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/julianhilgemann/dataviz/blob/main/heatmap_yields/output/dataviz_yield_heatmap.png" alt="Yield Curve Heatmap" width="100%"/>
+<img src="https://github.com/julianhilgemann/dataviz/blob/main/heatmap_yields/output/dataviz_yield_heatmap_neutral.png" alt="Yield Curve Heatmap" width="100%"/>
 
 **Julian Hilgemann**
 
