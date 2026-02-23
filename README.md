@@ -14,9 +14,10 @@ Business Analyst · Power BI · Analytics Engineering
 
 I work on the layer between data infrastructure and business decisions — semantic models, KPI logic, and the reporting interfaces where numbers actually get used. Day to day that means Power BI, DAX, dbt, and SQL, with Python for anything that needs modeling or automation.
 
-My background is in economics and econometrics (B.Sc. Business Administration, graduate work in quantitative economics and time series). Professionally I've spent the last 2.5 years in fintech, building revenue forecasting models, lead-scoring pipelines, funnel analytics, and investor-grade reporting across a portfolio covering €4bn+ in annual volume.
+My background is in economics and business (B.Sc. Business Administration, graduate work in quantitative economics and time series). 
+Professionally I've spent the last 3 years in fintech, building revenue forecasting models, lead-scoring pipelines, funnel analytics, and investor-grade reporting across a portfolio covering €4bn+ in annual volume.
 
-I'm also genuinely enthusiastic about generative AI and LLM-based workflows — I use agentic tooling daily for prototyping, analysis, and context engineering, and I think the intersection of GenAI and analytics engineering is where a lot of the interesting work is heading.
+I'm also genuinely enthusiastic about generative AI and LLM-based workflows — I use agentic tooling daily for prototyping, analysis, and context engineering, and I think the intersection of GenAI, analytics engineering and BI is where a lot of the interesting work is heading.
 
 ---
 
