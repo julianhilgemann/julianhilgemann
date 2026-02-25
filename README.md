@@ -51,6 +51,14 @@ LLM-augmented dashboarding API for German macroeconomic data.
 Visual exploration of the German yield curve over time.
 `Python` `Matplotlib`
 
+### 📈 Advanced Analytics
+
+**[Pipeline Conversion Forecast](https://github.com/julianhilgemann/pipeline-forecast)**  
+Decision-kernel convolution model for B2B sales forecasting. Estimates daily 
+expected wins from existing pipeline and forecasted arrivals using historical 
+win-probability distributions. Includes walk-forward backtest.  
+`Python` `SARIMAX` `Scipy` `Matplotlib`
+
 ---
 
 ### What I work with
