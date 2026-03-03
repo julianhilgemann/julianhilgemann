@@ -4,7 +4,7 @@
 
 **Julian Hilgemann**
 
-Business Analyst · Power BI · Analytics Engineering
+Business Intelligence · Analytics Engineering · Financial Modeling
 
 [LinkedIn](https://linkedin.com/in/julian-hilgemann/) · [Email](mailto:hilgemann.julian@gmail.com) · [Website](https://julianhilgemann.com)
 
