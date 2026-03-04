@@ -2,11 +2,15 @@
 <img src="gh_banner.png" alt="Julian Hilgemann — BI & Analytics Engineering" width="100%"/>
 </div>
 
-[LinkedIn](https://linkedin.com/in/julian-hilgemann/) · [Email](mailto:hilgemann.julian@gmail.com) · [Website](https://julianhilgemann.com)
-
 </div>
 
 ---
+
+**Julian Hilgemann**
+
+[LinkedIn](https://linkedin.com/in/julian-hilgemann/) · [Email](mailto:hilgemann.julian@gmail.com) · [Website](https://julianhilgemann.com)
+
+Business Intelligence · Analytics Engineering · Financial Modeling
 
 I work on the layer between data infrastructure and business decisions — semantic models, KPI logic, and the reporting interfaces where numbers actually get used. Day to day that means Power BI, DAX, dbt, and SQL, with Python for anything that needs modeling or automation.
 
