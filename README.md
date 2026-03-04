@@ -36,7 +36,7 @@ Full analytics stack for a simulated DACH e-commerce business — from stochasti
 </td>
 <td width="45%">
 
-<img src="https://github.com/julianhilgemann/BI-Pipeline/raw/main/vantage-rebuild/viz/vantage_data_model.png" alt="Vantage Data Model" width="100%"/>
+<img src="https://github.com/julianhilgemann/BI-Pipeline/raw/main/vantage-rebuild/viz/vantage_dashboard_main.png" alt="Vantage Alpin Dashboard" width="100%"/>
 
 <sub>Star schema with synthetic dim_date (DACH holidays, ISO fiscal periods), no calculated columns</sub>
 
