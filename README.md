@@ -2,10 +2,6 @@
 <img src="gh_banner.png" alt="Julian Hilgemann — BI & Analytics Engineering" width="100%"/>
 </div>
 
-**Julian Hilgemann**
-
-Business Intelligence · Analytics Engineering · Financial Modeling
-
 [LinkedIn](https://linkedin.com/in/julian-hilgemann/) · [Email](mailto:hilgemann.julian@gmail.com) · [Website](https://julianhilgemann.com)
 
 </div>
