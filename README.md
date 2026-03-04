@@ -8,9 +8,10 @@
 
 **Julian Hilgemann**
 
+Business Intelligence · Analytics Engineering · Financial Modeling
+
 [LinkedIn](https://linkedin.com/in/julian-hilgemann/) · [Email](mailto:hilgemann.julian@gmail.com) · [Website](https://julianhilgemann.com)
 
-Business Intelligence · Analytics Engineering · Financial Modeling
 
 I work on the layer between data infrastructure and business decisions — semantic models, KPI logic, and the reporting interfaces where numbers actually get used. Day to day that means Power BI, DAX, dbt, and SQL, with Python for anything that needs modeling or automation.
 
