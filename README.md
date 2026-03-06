@@ -8,7 +8,7 @@
 
 **Julian Hilgemann**
 
-Business Intelligence · Analytics Engineering · Financial Modeling
+Business Intelligence · Analytics Engineering · Advanced Analytics
 
 [LinkedIn](https://linkedin.com/in/julian-hilgemann/) · [Email](mailto:hilgemann.julian@gmail.com) · [Website](https://julianhilgemann.com)
 
