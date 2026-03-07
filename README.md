@@ -51,6 +51,22 @@ Full analytics stack for a simulated DACH e-commerce business — from stochasti
 
 ---
 
+### 🌐 Data Apps & Tools
+
+**[Yield Curve Heatmap](https://julianhilgemann.github.io/heatmapp/)**  
+Interactive browser-based visualization of the German government yield curve. Fetches 25+ years of monthly Svensson zero-coupon yields directly from the Bundesbank's SDMX REST API and renders them as a smooth, pixel-interpolated heatmap — 2008, the negative-rate era, and the 2022 hiking cycle all visible at a glance. 26 color palettes, interactive tooltip, configurable date/maturity range, and high-resolution PNG export.  
+`React` `D3` `Canvas API` `Bundesbank SDMX API`
+
+**[VaultForge](https://julianhilgemann.github.io/vaultforge/)**  
+Drop a PDF or EPUB, get an Obsidian vault. Parses documents client-side, sends sections to Claude via the Anthropic API, and returns atomic markdown notes with `[[wikilinks]]`, concept tags, and a live D3 knowledge graph — packaged as a ready-to-open `.zip`. Runs entirely in the browser: no backend, no build step, no data leaves your machine.  
+`HTML` `D3` `pdf.js` `Claude API`
+
+**[Life in Weeks](https://julianhilgemann.github.io/lifeinweeks/)**  
+Renders your entire lifespan as a 90×52 grid of weeks. Enter a birthday, pick a palette, label life phases, and export a high-resolution poster (up to 4K / A3 print-ready). Inspired by Tim Urban's *Your Life in Weeks*. Client-side only, mobile-first, dark/light mode.  
+`React` `Canvas API`
+
+---
+
 ### 📊 Business Intelligence & Dashboards
 
 **[B2B Energy Trading Dashboard](https://github.com/julianhilgemann/dashboard-gallery/tree/main/energy-trading-dashboard)**  
