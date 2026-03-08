@@ -62,7 +62,7 @@ Drop a PDF or EPUB, get an Obsidian vault. Parses documents client-side, sends s
 Renders your entire lifespan as a 90×52 grid of weeks. Enter a birthday, pick a palette, label life phases, and export a high-resolution poster (up to 4K / A3 print-ready). Inspired by Tim Urban's *Your Life in Weeks*. Client-side only, mobile-first, dark/light mode.  
 `React` `Canvas API`
 
-**[ShaderGradient Playground](https://julianhilgemann.github.io/shadergradient-playground)**  
+**[ShaderGradient Playground](https://julianhilgemann.github.io/shadergradient)**  
 Browser-based real-time shader gradient simulator built on Three.js and custom GLSL. Tweak geometry, noise, camera, and lighting live — then export as a looping GIF, WebM, or MP4. Includes 12 built-in presets, a frosted glass overlay tool, and JSX code output for drop-in use with the ShaderGradient React library. Zero build step, single HTML file.  
 `Three.js` `GLSL` `Canvas API` `MediaRecorder` `WebCodecs`
 
