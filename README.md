@@ -2,8 +2,6 @@
 <img src="gh_banner.png" alt="Julian Hilgemann — BI & Analytics Engineering" width="100%"/>
 </div>
 
-</div>
-
 ---
 
 **Julian Hilgemann**
@@ -11,7 +9,6 @@
 Business Intelligence · Analytics Engineering · Advanced Analytics
 
 [LinkedIn](https://linkedin.com/in/julian-hilgemann/) · [Email](mailto:hilgemann.julian@gmail.com) · [Website](https://julianhilgemann.com)
-
 
 I work on the layer between data infrastructure and business decisions — semantic models, KPI logic, and the reporting interfaces where numbers actually get used. Day to day that means Power BI, DAX, dbt, and SQL, with Python for anything that needs modeling or automation.
 
@@ -65,9 +62,10 @@ Drop a PDF or EPUB, get an Obsidian vault. Parses documents client-side, sends s
 Renders your entire lifespan as a 90×52 grid of weeks. Enter a birthday, pick a palette, label life phases, and export a high-resolution poster (up to 4K / A3 print-ready). Inspired by Tim Urban's *Your Life in Weeks*. Client-side only, mobile-first, dark/light mode.  
 `React` `Canvas API`
 
-**[ShaderGradient Playground](https://github.com/julianhilgemann/shadergradient)**
-Browser-based real-time shader gradient simulator built on Three.js and custom GLSL. Tweak geometry, noise, camera, and lighting live — then export as a looping GIF, WebM, or MP4. Includes 12 built-in presets, a frosted glass overlay tool, and JSX code output for drop-in use with the ShaderGradient React library. Zero build step, single HTML file.
+**[ShaderGradient Playground](https://julianhilgemann.github.io/shadergradient-playground)**  
+Browser-based real-time shader gradient simulator built on Three.js and custom GLSL. Tweak geometry, noise, camera, and lighting live — then export as a looping GIF, WebM, or MP4. Includes 12 built-in presets, a frosted glass overlay tool, and JSX code output for drop-in use with the ShaderGradient React library. Zero build step, single HTML file.  
 `Three.js` `GLSL` `Canvas API` `MediaRecorder` `WebCodecs`
+
 ---
 
 ### 📊 Business Intelligence & Dashboards
