@@ -68,6 +68,19 @@ Browser-based real-time shader gradient simulator built on Three.js and custom G
 
 ---
 
+### 📈 Advanced Analytics
+
+**[YouTube Sentiment Snapshot](https://github.com/julianhilgemann/yt_sentiment_scraper)**  
+One-shot analyzer of YouTube comment sentiment, themes, and emoji mood. Fetches all comments from a video, scores VADER sentiment, extracts emotional archetypes and surface themes, and renders a single dark-mode dashboard (SVG/PDF/PNG) summarizing audience bias and engagement trends.  
+`Python` `VADER` `Pandas` `Matplotlib` `Emoji` `YouTube API`
+
+**[Pipeline Conversion Forecast](https://github.com/julianhilgemann/pipeline-forecast)**  
+Decision-kernel convolution model for B2B sales forecasting. Estimates daily expected wins from existing pipeline and forecasted arrivals using historical win-probability distributions. Includes walk-forward backtest.  
+`Python` `SARIMAX` `Scipy` `Matplotlib`
+
+---
+
+
 ### 📊 Business Intelligence & Dashboards
 
 **[B2B Energy Trading Dashboard](https://github.com/julianhilgemann/dashboard-gallery/tree/main/energy-trading-dashboard)**  
@@ -93,16 +106,6 @@ LLM-augmented dashboarding API for German macroeconomic data.
 **[Bundesbank Yield Curve Heatmap](https://github.com/julianhilgemann/dataviz/tree/main)**  
 Visual exploration of the German yield curve over time.  
 `Python` `Matplotlib`
-
-### 📈 Advanced Analytics
-
-**[YouTube Sentiment Snapshot](https://github.com/julianhilgemann/yt_sentiment_scraper)**  
-One-shot analyzer of YouTube comment sentiment, themes, and emoji mood. Fetches all comments from a video, scores VADER sentiment, extracts emotional archetypes and surface themes, and renders a single dark-mode dashboard (SVG/PDF/PNG) summarizing audience bias and engagement trends.  
-`Python` `VADER` `Pandas` `Matplotlib` `Emoji` `YouTube API`
-
-**[Pipeline Conversion Forecast](https://github.com/julianhilgemann/pipeline-forecast)**  
-Decision-kernel convolution model for B2B sales forecasting. Estimates daily expected wins from existing pipeline and forecasted arrivals using historical win-probability distributions. Includes walk-forward backtest.  
-`Python` `SARIMAX` `Scipy` `Matplotlib`
 
 ---
 
