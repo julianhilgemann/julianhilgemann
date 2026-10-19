@@ -66,6 +66,14 @@ Renders your entire lifespan as a 90×52 grid of weeks. Enter a birthday, pick a
 Browser-based real-time shader gradient simulator built on Three.js and custom GLSL. Tweak geometry, noise, camera, and lighting live — then export as a looping GIF, WebM, or MP4. Includes 12 built-in presets, a frosted glass overlay tool, and JSX code output for drop-in use with the ShaderGradient React library. Zero build step, single HTML file.  
 `Three.js` `GLSL` `Canvas API` `MediaRecorder` `WebCodecs`
 
+**[Lineager](https://julianhilgemann.github.io/lineager/)**  
+Interactive family tree you can explore from anyone's point of view. Pan and zoom across generations back to 1400, switch the viewpoint to any person and every relationship label rewrites itself to their perspective, or scrub the timeline to jump generation by generation. Installs to the iPhone or iPad home screen as a full-screen app; edits and photos stay in the browser and are never uploaded. Single HTML file, no build step.  
+`HTML` `JavaScript` `PWA`
+
+**[Databites Knowledge Wiki](https://julianhilgemann.github.io/databites_knowledge_vault/)**  
+Public reference wiki for the modern data stack, written in Obsidian and published as a static site with Quartz. Covers analytics engineering, DAX and VertiPaq internals, Power BI architecture and governance, Power Query, Fabric, econometrics, Bayesian statistics, and data visualization (IBCS, chart selection). Notes are densely wiki-linked, so the site browses as a knowledge graph, and every push to `main` rebuilds and redeploys it through GitHub Actions.  
+`Obsidian` `Quartz` `Markdown` `GitHub Actions`
+
 ---
 
 ### 📈 Advanced Analytics
@@ -77,6 +85,10 @@ One-shot analyzer of YouTube comment sentiment, themes, and emoji mood. Fetches 
 **[Pipeline Conversion Forecast](https://github.com/julianhilgemann/hybrid_sales_pipeline_forecast)**  
 Decision-kernel convolution model for B2B sales forecasting. Estimates daily expected wins from existing pipeline and forecasted arrivals using historical win-probability distributions. Includes walk-forward backtest.  
 `Python` `SARIMAX` `Scipy` `Matplotlib`
+
+**[Petition Signature Analysis](https://github.com/julianhilgemann/demographic_analysis)**  
+District-level analysis of ~480,000 signatures to a psychotherapy-related German online petition, collected in a 60-hour window. Cleans free-text locations and 57k unique job titles, maps every signature to one of Germany's 400 districts, and joins official open data on 2025 federal election results, socioeconomic deprivation, and university locations. The result: signature density follows political milieu (Spearman ρ = +0.63 with the Green vote share, −0.61 with the AfD share) rather than need, and districts with a university psychology department sign 3.6× more per capita. Delivered as one self-contained HTML report, with raw personal data kept out of the repo. Built end-to-end with Claude in 5 prompts and about two hours.  
+`Python` `pandas` `Chart.js` `Open Data` `Claude Code`
 
 ---
 
@@ -97,15 +109,27 @@ End-to-end data pipeline from Excel data contracts to ML forecasting and BI dash
 German Bundesbank interest rate forecast API.  
 `Python` `FastAPI`
 
+**[German Mortgage Macro Pipeline](https://github.com/julianhilgemann/german_mortgage_macro_pipeline)**  
+End-to-end pipeline from the Bundesbank SDMX API to a Power BI semantic model. Pulls 30 macro and lending series (GDP, inflation, ECB rates, yields, household and corporate loan rates and volumes) into DuckDB, transforms them through staging, intermediate and mart layers in dbt, and validates that loan volumes add up across maturity buckets. Housing-loan volumes are forecast 12 months ahead: six candidate models (AutoARIMA, ETS, Theta, CES, MSTL, seasonal naive) compete in expanding-window cross-validation, and the best per series is kept with 90% and 95% prediction intervals. Served through a TMDL semantic model with 20+ DAX measures and a time-intelligence calculation group.  
+`Python` `DuckDB` `dbt` `statsforecast` `Power BI` `DAX` `Bundesbank SDMX API`
+
 **[German Macroeconomic API](https://github.com/julianhilgemann/macro_llm_api)** *(wip)*  
 LLM-augmented dashboarding API for German macroeconomic data.  
 `Python` `FastAPI`
+
+**[FX Macro Data Platform](https://github.com/julianhilgemann/fx_macro_platform)** *(wip)*  
+Point-in-time data platform for macroeconomic and FX time series. Macro data gets revised, so instead of overwriting values it keeps every vintage: FRED, ECB and Bundesbank responses land immutably, and the Postgres warehouse records both the period a value describes and the date it became known, so every number traces back to what was knowable when it was published. dbt transforms, Dagster orchestrates, and a FastAPI read layer, Streamlit analytics, Metabase and Elementary data-quality reports sit on top. Includes an OIS-implied ECB rate-probability engine, scored against an external market-implied feed.  
+`Python` `Postgres` `dbt` `Dagster` `FastAPI` `Docker`
 
 ### 🎨 Data Visualization
 
 **[Bundesbank Yield Curve Heatmap](https://github.com/julianhilgemann/buba_yield_curve_viz)**  
 Visual exploration of the German yield curve over time.  
 `Python` `Matplotlib`
+
+**[Econ Sonification](https://github.com/julianhilgemann/econ-sonification)**  
+Bundesbank data as sound, built in TouchDesigner. Fetches the monthly new-business volume of German housing loans and plays a window of it as one cycle of a wavetable synth: detrended, interpolated, waveshaped and band-limited in NumPy, with a GLSL dashboard showing the series, oscilloscope, spectrum, sonogram and a 3D wavetable stack. The same drone drives a camera- and microphone-reactive installation built around a 62k-point instanced cloud, and a 1080×1080 music-video renderer.  
+`TouchDesigner` `Python` `NumPy` `GLSL` `Bundesbank API`
 
 ---
 
