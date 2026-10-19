@@ -24,7 +24,7 @@ I'm also genuinely enthusiastic about generative AI and LLM-based workflows — 
 <tr>
 <td width="55%">
 
-#### [Vantage Alpin — End-to-End BI Pipeline](https://github.com/julianhilgemann/BI-Pipeline)
+#### [Vantage Alpin — End-to-End BI Pipeline](https://github.com/julianhilgemann/vantage_alpin_e2e_pipeline)
 
 Full analytics stack for a simulated DACH e-commerce business — from stochastic data generation to a production-grade Power BI reporting layer.
 
@@ -38,7 +38,7 @@ Full analytics stack for a simulated DACH e-commerce business — from stochasti
 </td>
 <td width="45%">
 
-<img src="https://github.com/julianhilgemann/BI-Pipeline/raw/main/vantage-rebuild/viz/vantage_dashboard_main.png" alt="Vantage Alpin Dashboard" width="100%"/>
+<img src="https://github.com/julianhilgemann/vantage_alpin_e2e_pipeline/raw/main/vantage-rebuild/viz/vantage_dashboard_main.png" alt="Vantage Alpin Dashboard" width="100%"/>
 
 <sub>Star schema with synthetic dim_date (DACH holidays, ISO fiscal periods), no calculated columns</sub>
 
@@ -74,7 +74,7 @@ Browser-based real-time shader gradient simulator built on Three.js and custom G
 One-shot analyzer of YouTube comment sentiment, themes, and emoji mood. Fetches all comments from a video, scores VADER sentiment, extracts emotional archetypes and surface themes, and renders a single dark-mode dashboard (SVG/PDF/PNG) summarizing audience bias and engagement trends.  
 `Python` `VADER` `Pandas` `Matplotlib` `Emoji` `YouTube API`
 
-**[Pipeline Conversion Forecast](https://github.com/julianhilgemann/pipeline-forecast)**  
+**[Pipeline Conversion Forecast](https://github.com/julianhilgemann/hybrid_sales_pipeline_forecast)**  
 Decision-kernel convolution model for B2B sales forecasting. Estimates daily expected wins from existing pipeline and forecasted arrivals using historical win-probability distributions. Includes walk-forward backtest.  
 `Python` `SARIMAX` `Scipy` `Matplotlib`
 
@@ -83,27 +83,27 @@ Decision-kernel convolution model for B2B sales forecasting. Estimates daily exp
 
 ### 📊 Business Intelligence & Dashboards
 
-**[B2B Energy Trading Dashboard](https://github.com/julianhilgemann/dashboard-gallery/tree/main/energy-trading-dashboard)**  
+**[B2B Energy Trading Dashboard](https://github.com/julianhilgemann/dashboard_gallery/tree/main/energy-trading-dashboard)**  
 Decision interface for energy key account managers. Spot market correlations, geospatial demand, dark-mode layout designed in Figma.  
 `Power BI` `DAX` `Figma`
 
 ### 🔧 Data Pipelines & APIs
 
-**[Agentic Financial Twin](https://github.com/julianhilgemann/Portfolio)**  
+**[Agentic Financial Twin](https://github.com/julianhilgemann/e2e_rapid_data_function)**  
 End-to-end data pipeline from Excel data contracts to ML forecasting and BI dashboard. Agents that spin up a data stack from a static Excel file, including Prophet-based revenue forecasting.  
 `Python` `LLM Agents` `Prophet`
 
-**[Zinskompass API](https://github.com/julianhilgemann/zinsapi)**  
+**[Zinskompass API](https://github.com/julianhilgemann/ts_forecast_api)**  
 German Bundesbank interest rate forecast API.  
 `Python` `FastAPI`
 
-**[German Macroeconomic API](https://github.com/julianhilgemann/macrodata)** *(wip)*  
+**[German Macroeconomic API](https://github.com/julianhilgemann/macro_llm_api)** *(wip)*  
 LLM-augmented dashboarding API for German macroeconomic data.  
 `Python` `FastAPI`
 
 ### 🎨 Data Visualization
 
-**[Bundesbank Yield Curve Heatmap](https://github.com/julianhilgemann/dataviz/tree/main)**  
+**[Bundesbank Yield Curve Heatmap](https://github.com/julianhilgemann/buba_yield_curve_viz)**  
 Visual exploration of the German yield curve over time.  
 `Python` `Matplotlib`
 
