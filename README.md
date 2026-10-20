@@ -127,12 +127,12 @@ Point-in-time data platform for macroeconomic and FX time series. Macro data get
 Visual exploration of the German yield curve over time.  
 `Python` `Matplotlib`
 
-**[Econ Sonification](https://github.com/julianhilgemann/econ-sonification)**  
+**[Econ Sonification](https://github.com/julianhilgemann/audiovisual-animations/tree/main/projects/econ-sonification)**  
 Bundesbank data as sound, built in TouchDesigner. Fetches the monthly new-business volume of German housing loans and plays a window of it as one cycle of a wavetable synth: detrended, interpolated, waveshaped and band-limited in NumPy, with a GLSL dashboard showing the series, oscilloscope, spectrum, sonogram and a 3D wavetable stack. The same drone drives a camera- and microphone-reactive installation built around a 62k-point instanced cloud, and a 1080×1080 music-video renderer.  
 `TouchDesigner` `Python` `NumPy` `GLSL` `Bundesbank API`
 
 **[Datapipe: Audio-reactive Shorts](https://github.com/julianhilgemann/audiovisual-animations)** *(wip)*  
-Pipeline that turns a song into a finished 9:16 YouTube Short with zero post-production: drop an audio file into a folder, and one headless Blender render writes the upload-ready 4K, 60 fps MP4 with synced audio. Beats, transients, frequency bands and song structure (build, breakdown, drop) are analyzed on a frame-accurate grid and mapped onto a neon-tunnel scene; reactivity is tuned live in TouchDesigner and the look in a Blender side panel, and both save as recipes reused for every new song. The toolchain, template scene and a Claude-to-Blender MCP bridge are in place; the analysis and render stages are being built now. The repo also hosts standalone TouchDesigner work, including FerroScope, a reusable CRT and analog-signal filter with YouTube input.  
+Pipeline that turns a song into a finished 9:16 YouTube Short with zero post-production: drop an audio file into a folder, and one headless Blender render writes the upload-ready 4K, 60 fps MP4 with synced audio. Beats, transients, frequency bands and song structure (build, breakdown, drop) are analyzed on a frame-accurate grid and mapped onto a neon-tunnel scene; reactivity is tuned live in TouchDesigner and the look in a Blender side panel, and both save as recipes reused for every new song. The toolchain, template scene and a Claude-to-Blender MCP bridge are in place; the analysis and render stages are being built now. The repo also hosts standalone TouchDesigner work, including [FerroScope](https://github.com/julianhilgemann/audiovisual-animations/tree/main/projects/ferroscope), a reusable CRT and analog-signal filter with YouTube input.  
 `Python` `Blender` `TouchDesigner` `librosa` `PyAV` `NumPy`
 
 ---
