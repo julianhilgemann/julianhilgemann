@@ -175,3 +175,13 @@ Pipeline that turns a song into a finished 9:16 YouTube Short with zero post-pro
 | **Engineering** | SQL (Postgres), dbt, DuckDB, Python, Git |
 | **Modeling** | Time series forecasting, econometrics, scikit-learn, Prophet |
 | **Languages** | German (native), English (C1), Russian (C1) |
+
+---
+
+### 🧭 Where to find me
+
+<a href="https://julianhilgemann.github.io/ecosystem_graph_app/"><img src="https://github.com/julianhilgemann/ecosystem_graph_app/raw/main/docs/preview.png" alt="Ecosystem graph: this profile as an orange hub, linked to every public repo (blue dots), the live apps and julianhilgemann.com (green diamonds) and LinkedIn, YouTube and email (violet squares); amber and red lines mark links that redirect or are broken" width="100%"/></a>
+
+**[Ecosystem Graph](https://julianhilgemann.github.io/ecosystem_graph_app/)**  
+Everything I publish on one interactive map: this profile, every public repo, the apps live on GitHub Pages, my website and my channels, joined by every link between them. Orbit it in 3D, flatten it to 2D or search for a project, and click any node to see what links to it and where it leads. A GitHub Action re-crawls the READMEs and live sites every morning and checks each link, so the same map flags broken links and repos that are reachable only through a rename redirect.  
+`JavaScript` `Three.js` `force-graph` `Node.js` `GitHub Actions`
