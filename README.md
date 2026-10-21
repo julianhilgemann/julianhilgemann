@@ -18,6 +18,14 @@ I'm also genuinely enthusiastic about generative AI and LLM-based workflows — 
 
 ---
 
+### 🤖 Workflow
+
+<img src="workflow/workflow.png" alt="Workflow: laptop and phone (over Tailscale) prompt Claude Code in VS Code; an Obsidian vault and AGENTS.md and SKILL.md files supply context; agents edit local repositories and reach Jira, databases, dbt, APIs, Azure, Azure DevOps, Fabric, Power BI, TouchDesigner and Blender through MCP servers and CLIs; code is pushed to GitHub and deployed by Actions to live sites" width="100%"/>
+
+I work agent-first, with the language model as my interface. VS Code and Claude Code run side by side over one local workspace that holds all my repositories: some deploy to live sites through GitHub Pages, others are plain code. Every repo carries its own `AGENTS.md` or `CLAUDE.md` and skills, and an Obsidian vault adds the wider context (notes, specs, decisions), so agents start from what I already know. Through MCP servers and CLIs the same agents pick up tickets and to-dos from Jira, query and transform SQL databases with dbt, call APIs, work in Azure, Azure DevOps, Fabric and Power BI, and drive TouchDesigner and Blender, then commit, push and deploy across many repos at once. Away from the desk, my phone reaches the laptop over Tailscale, and Wispr Flow turns voice into prompts.
+
+---
+
 ### ⭐ Featured Projects
 
 <table>

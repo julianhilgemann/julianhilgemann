@@ -1,0 +1,654 @@
+{
+ "page": "Workflow",
+ "W": 1180,
+ "H": 668,
+ "title": "",
+ "zones": [
+  {
+   "id": "io",
+   "x": 20,
+   "y": 20,
+   "w": 160,
+   "h": 580,
+   "fill": "#F5F6F8",
+   "stroke": "#C9D1D9",
+   "title": "Interfaces",
+   "tfs": 14
+  },
+  {
+   "id": "ws",
+   "x": 210,
+   "y": 20,
+   "w": 480,
+   "h": 580,
+   "fill": "#FBFAFF",
+   "stroke": "#8C7BD1",
+   "sw": 1.4,
+   "title": "Local workspace",
+   "tfs": 14,
+   "chip": [
+    "origin",
+    "custom"
+   ]
+  },
+  {
+   "id": "ctx",
+   "x": 230,
+   "y": 66,
+   "w": 440,
+   "h": 150,
+   "fill": "#FFFFFF",
+   "stroke": "#8C7BD1",
+   "dash": "6 4",
+   "title": "Context",
+   "tfs": 12.5,
+   "tcol": "custom"
+  },
+  {
+   "id": "repos",
+   "x": 230,
+   "y": 430,
+   "w": 440,
+   "h": 150,
+   "fill": "#FFFFFF",
+   "stroke": "#8A96A3",
+   "dash": "6 4",
+   "title": "Repositories",
+   "tfs": 12.5,
+   "tcol": "deploy"
+  },
+  {
+   "id": "sys",
+   "x": 870,
+   "y": 20,
+   "w": 290,
+   "h": 580,
+   "fill": "#F5F6F8",
+   "stroke": "#C9D1D9",
+   "title": "Systems",
+   "tfs": 14
+  }
+ ],
+ "nodes": {
+  "laptop": {
+   "icon": "a-laptop",
+   "cx": 100,
+   "cy": 300,
+   "size": 48,
+   "label": "Laptop",
+   "sub": [
+    "prompt, review"
+   ],
+   "mono": "custom",
+   "fs": 14
+  },
+  "phone": {
+   "icon": "a-phone",
+   "cx": 100,
+   "cy": 500,
+   "size": 44,
+   "label": "Phone",
+   "sub": [
+    "voice via Wispr Flow"
+   ],
+   "mono": "custom",
+   "fs": 14
+  },
+  "ts": {
+   "icon": "logo-tailscale",
+   "cx": 100,
+   "cy": 412,
+   "size": 26,
+   "label": "",
+   "bg": "custom"
+  },
+  "obs": {
+   "icon": "logo-obsidian",
+   "cx": 320,
+   "cy": 140,
+   "size": 40,
+   "label": "Obsidian vault",
+   "sub": [
+    "notes, specs"
+   ]
+  },
+  "agents": {
+   "icon": "logo-markdown",
+   "cx": 450,
+   "cy": 140,
+   "size": 40,
+   "label": "AGENTS.md",
+   "sub": [
+    "CLAUDE.md"
+   ]
+  },
+  "skill": {
+   "icon": "logo-markdown",
+   "cx": 580,
+   "cy": 140,
+   "size": 40,
+   "label": "SKILL.md",
+   "sub": [
+    "skills"
+   ]
+  },
+  "vscode": {
+   "icon": "logo-vscode",
+   "cx": 330,
+   "cy": 300,
+   "size": 48,
+   "label": "VS Code",
+   "sub": [
+    "IDE, diffs"
+   ],
+   "fs": 14
+  },
+  "claude": {
+   "icon": "logo-claude",
+   "cx": 530,
+   "cy": 300,
+   "size": 52,
+   "label": "Claude Code",
+   "sub": [
+    "agents, subagents"
+   ],
+   "fs": 14
+  },
+  "site": {
+   "icon": "i-folder",
+   "cx": 350,
+   "cy": 505,
+   "size": 40,
+   "label": "Site repos",
+   "sub": [
+    "live on GitHub Pages"
+   ],
+   "mono": "deploy",
+   "stack": 2
+  },
+  "code": {
+   "icon": "i-folder",
+   "cx": 560,
+   "cy": 505,
+   "size": 40,
+   "label": "Code repos",
+   "sub": [
+    "pipelines, APIs, apps"
+   ],
+   "mono": "deploy",
+   "stack": 2
+  },
+  "mcp": {
+   "icon": "logo-mcp",
+   "cx": 770,
+   "cy": 300,
+   "size": 44,
+   "label": "MCP servers",
+   "sub": [
+    "and CLIs"
+   ],
+   "fs": 14
+  },
+  "jira": {
+   "icon": "logo-jira",
+   "cx": 910,
+   "cy": 120,
+   "size": 36,
+   "label": "Jira"
+  },
+  "pg": {
+   "icon": "logo-postgresql",
+   "cx": 910,
+   "cy": 225,
+   "size": 36,
+   "label": "Postgres"
+  },
+  "duck": {
+   "icon": "logo-duckdb",
+   "cx": 980,
+   "cy": 225,
+   "size": 36,
+   "label": "DuckDB"
+  },
+  "dbt": {
+   "icon": "logo-dbt",
+   "cx": 1050,
+   "cy": 225,
+   "size": 36,
+   "label": "dbt"
+  },
+  "api": {
+   "icon": "i-braces",
+   "cx": 1120,
+   "cy": 225,
+   "size": 36,
+   "label": "APIs",
+   "mono": "self"
+  },
+  "az": {
+   "icon": "logo-azure",
+   "cx": 910,
+   "cy": 330,
+   "size": 36,
+   "label": "Azure"
+  },
+  "ado": {
+   "icon": "logo-azure-devops",
+   "cx": 980,
+   "cy": 330,
+   "size": 36,
+   "label": "DevOps"
+  },
+  "fab": {
+   "icon": "fabric",
+   "cx": 1050,
+   "cy": 330,
+   "size": 36,
+   "label": "Fabric"
+  },
+  "pbi": {
+   "icon": "power-bi",
+   "cx": 1120,
+   "cy": 330,
+   "size": 36,
+   "label": "Power BI"
+  },
+  "td": {
+   "icon": "logo-touchdesigner",
+   "cx": 935,
+   "cy": 435,
+   "size": 36,
+   "label": "TouchDesigner"
+  },
+  "blend": {
+   "icon": "logo-blender",
+   "cx": 1065,
+   "cy": 435,
+   "size": 36,
+   "label": "Blender"
+  },
+  "gh": {
+   "icon": "logo-github",
+   "cx": 910,
+   "cy": 540,
+   "size": 36,
+   "label": "GitHub"
+  },
+  "gha": {
+   "icon": "logo-github-actions",
+   "cx": 1015,
+   "cy": 540,
+   "size": 36,
+   "label": "Actions"
+  },
+  "pages": {
+   "icon": "a-globe",
+   "cx": 1120,
+   "cy": 540,
+   "size": 36,
+   "label": "Live sites",
+   "mono": "consume"
+  }
+ },
+ "edges": [
+  {
+   "c": "custom",
+   "pts": [
+    [
+     100,
+     474
+    ],
+    [
+     100,
+     364
+    ]
+   ],
+   "dash": "6 4",
+   "src": "phone",
+   "dst": "laptop"
+  },
+  {
+   "c": "custom",
+   "pts": [
+    [
+     126,
+     300
+    ],
+    [
+     303,
+     300
+    ]
+   ],
+   "src": "laptop",
+   "dst": "vscode"
+  },
+  {
+   "c": "custom",
+   "pts": [
+    [
+     357,
+     300
+    ],
+    [
+     500,
+     300
+    ]
+   ],
+   "src": "vscode",
+   "dst": "claude"
+  },
+  {
+   "c": "custom",
+   "pts": [
+    [
+     530,
+     218
+    ],
+    [
+     530,
+     269
+    ]
+   ],
+   "src": "ctx",
+   "dst": "claude"
+  },
+  {
+   "c": "deploy",
+   "pts": [
+    [
+     530,
+     372
+    ],
+    [
+     530,
+     427
+    ]
+   ],
+   "src": "claude",
+   "dst": "repos"
+  },
+  {
+   "c": "self",
+   "pts": [
+    [
+     560,
+     300
+    ],
+    [
+     745,
+     300
+    ]
+   ],
+   "arrow": "both",
+   "src": "claude",
+   "dst": "mcp"
+  },
+  {
+   "c": "self",
+   "pts": [
+    [
+     795,
+     300
+    ],
+    [
+     850,
+     300
+    ]
+   ],
+   "arrow": "none",
+   "src": "mcp"
+  },
+  {
+   "c": "self",
+   "pts": [
+    [
+     850,
+     120
+    ],
+    [
+     850,
+     435
+    ]
+   ],
+   "arrow": "none"
+  },
+  {
+   "c": "self",
+   "pts": [
+    [
+     850,
+     120
+    ],
+    [
+     889,
+     120
+    ]
+   ],
+   "dst": "jira"
+  },
+  {
+   "c": "self",
+   "pts": [
+    [
+     850,
+     225
+    ],
+    [
+     889,
+     225
+    ]
+   ],
+   "dst": "pg"
+  },
+  {
+   "c": "self",
+   "pts": [
+    [
+     850,
+     330
+    ],
+    [
+     889,
+     330
+    ]
+   ],
+   "dst": "az"
+  },
+  {
+   "c": "self",
+   "pts": [
+    [
+     850,
+     435
+    ],
+    [
+     914,
+     435
+    ]
+   ],
+   "dst": "td"
+  },
+  {
+   "c": "deploy",
+   "pts": [
+    [
+     672,
+     540
+    ],
+    [
+     889,
+     540
+    ]
+   ],
+   "src": "repos",
+   "dst": "gh"
+  },
+  {
+   "c": "deploy",
+   "pts": [
+    [
+     931,
+     540
+    ],
+    [
+     994,
+     540
+    ]
+   ],
+   "src": "gh",
+   "dst": "gha"
+  },
+  {
+   "c": "consume",
+   "pts": [
+    [
+     1036,
+     540
+    ],
+    [
+     1099,
+     540
+    ]
+   ],
+   "src": "gha",
+   "dst": "pages"
+  }
+ ],
+ "texts": [
+  {
+   "x": 100,
+   "y": 447,
+   "t": "Tailscale",
+   "fs": 11.5,
+   "c": "custom",
+   "a": "middle",
+   "halo": true
+  },
+  {
+   "x": 245,
+   "y": 290,
+   "t": "prompts",
+   "fs": 11.5,
+   "c": "custom",
+   "a": "middle"
+  },
+  {
+   "x": 540,
+   "y": 243,
+   "t": "context",
+   "fs": 11.5,
+   "c": "custom",
+   "a": "start"
+  },
+  {
+   "x": 540,
+   "y": 404,
+   "t": "edit, commit",
+   "fs": 11.5,
+   "c": "deploy",
+   "a": "start"
+  },
+  {
+   "x": 640,
+   "y": 290,
+   "t": "tool calls",
+   "fs": 11.5,
+   "c": "self",
+   "a": "middle"
+  },
+  {
+   "x": 780,
+   "y": 530,
+   "t": "push",
+   "fs": 11.5,
+   "c": "deploy",
+   "a": "middle"
+  },
+  {
+   "x": 888,
+   "y": 82,
+   "t": "Project management",
+   "fs": 11.5,
+   "c": "#5B6875",
+   "a": "start"
+  },
+  {
+   "x": 888,
+   "y": 187,
+   "t": "Data and transformations",
+   "fs": 11.5,
+   "c": "#5B6875",
+   "a": "start"
+  },
+  {
+   "x": 888,
+   "y": 292,
+   "t": "Microsoft data platform",
+   "fs": 11.5,
+   "c": "#5B6875",
+   "a": "start"
+  },
+  {
+   "x": 888,
+   "y": 397,
+   "t": "Creative tools",
+   "fs": 11.5,
+   "c": "#5B6875",
+   "a": "start"
+  },
+  {
+   "x": 888,
+   "y": 502,
+   "t": "Code and deploy",
+   "fs": 11.5,
+   "c": "#5B6875",
+   "a": "start"
+  }
+ ],
+ "dots": [
+  [
+   850,
+   300,
+   "self"
+  ],
+  [
+   850,
+   225,
+   "self"
+  ],
+  [
+   850,
+   330,
+   "self"
+  ]
+ ],
+ "legend_y": 618,
+ "legend_title": "How to read it",
+ "legend": [
+  [
+   "Prompts and context",
+   "custom",
+   false
+  ],
+  [
+   "Remote access",
+   "custom",
+   true
+  ],
+  [
+   "MCP and CLI calls",
+   "self",
+   false
+  ],
+  [
+   "Code and deploy",
+   "deploy",
+   false
+  ],
+  [
+   "Live",
+   "consume",
+   false
+  ]
+ ]
+}
