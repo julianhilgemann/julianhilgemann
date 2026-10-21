@@ -18,7 +18,33 @@ I'm also genuinely enthusiastic about generative AI and LLM-based workflows — 
 
 ---
 
-### ⭐ Featured Project
+### ⭐ Featured Projects
+
+<table>
+<tr>
+<td width="55%">
+
+#### [FX Macro Data Platform](https://github.com/julianhilgemann/fx_macro_platform) *(wip)*
+
+Point-in-time data platform for macroeconomic and FX time series. Macro data gets revised, so instead of overwriting values it keeps every vintage: any number traces back to what was knowable when it was published.
+
+**Ingest** — Python clients for FRED, the ECB and the Bundesbank; every response archived verbatim and landed append-only, sha256-indexed  
+**Warehouse** — Postgres at a bitemporal grain: the period a value describes and the date it became known  
+**Transform** — dbt staging, intermediate and mart layers, each model its own Dagster asset, test results kept by Elementary  
+**Serve** — Read-only FastAPI with `as_of` queries, Streamlit analytics, a D3 Germany dashboard and Metabase, plus an OIS-implied ECB rate-probability engine scored against a market-implied feed  
+
+`Python` `Postgres` `dbt` `Dagster` `FastAPI` `Docker`
+
+</td>
+<td width="45%">
+
+<img src="https://github.com/julianhilgemann/fx_macro_platform/raw/main/docs/architecture/architecture-card.png" alt="FX Macro Data Platform architecture" width="100%"/>
+
+<sub>One row per series, period and vintage, so an <code>as_of</code> query returns what was knowable on any date</sub>
+
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
@@ -116,10 +142,6 @@ End-to-end pipeline from the Bundesbank SDMX API to a Power BI semantic model. P
 **[German Macroeconomic API](https://github.com/julianhilgemann/macro_llm_api)** *(wip)*  
 LLM-augmented dashboarding API for German macroeconomic data.  
 `Python` `FastAPI`
-
-**[FX Macro Data Platform](https://github.com/julianhilgemann/fx_macro_platform)** *(wip)*  
-Point-in-time data platform for macroeconomic and FX time series. Macro data gets revised, so instead of overwriting values it keeps every vintage: FRED, ECB and Bundesbank responses land immutably, and the Postgres warehouse records both the period a value describes and the date it became known, so every number traces back to what was knowable when it was published. dbt transforms, Dagster orchestrates, and a FastAPI read layer, Streamlit analytics, Metabase and Elementary data-quality reports sit on top. Includes an OIS-implied ECB rate-probability engine, scored against an external market-implied feed.  
-`Python` `Postgres` `dbt` `Dagster` `FastAPI` `Docker`
 
 ### 🎨 Data Visualization
 
