@@ -80,6 +80,32 @@ Full analytics stack for a simulated DACH e-commerce business — from stochasti
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="55%">
+
+#### [Datapipe: Audio-reactive Shorts](https://github.com/julianhilgemann/audiovisual-animations)
+
+One command turns a song into a finished 9:16 YouTube Short, with no post-production. The music is measured on a frame-accurate grid, and the measurements drive a neon tunnel rendered headless in Blender, so the picture follows every hit.
+
+**Input** — Six methods, each with its own front end: a loop composed and mastered with DawDreamer, a finished master, master and stems, master, stems and MIDI, stems of anything with no beat assumed, or one complex track measured from every side  
+**Analysis** — Onsets per band and per stem, a tempo grid, sections (build, breakdown, drop), loudness, spectral and pitch features; every method writes the same contract, `controls.json` plus `mix.wav`  
+**Look** — Per-method mappings decide which sound drives what, swappable styles set the tunnel's shape, and `datapipe tune` opens any run in Blender to tune it live with the sound  
+**Delivery** — PyAV encodes 1080×1920 at 60 fps, then automatic gates check length, loudness and true peak, sync, the loop seam and flashes  
+
+`Python` `Blender` `librosa` `DawDreamer` `PyAV` `NumPy`
+
+</td>
+<td width="45%">
+
+<img src="https://github.com/julianhilgemann/audiovisual-animations/raw/main/docs/diagrams/pipeline.png" alt="Datapipe architecture: a master, stems, MIDI or a preset and seed go through six front ends that all write one run folder (controls.json, mix.wav, report.png, run.json); headless Blender maps the controls onto a neon tunnel and renders PNG frames; render.py encodes them with the soundtrack to an MP4 and runs automatic checks; datapipe tune opens a run in Blender to tune it by hand" width="100%"/>
+
+<sub>Every input method writes the same run folder, so one Blender back end renders, encodes and checks them all</sub>
+
+</td>
+</tr>
+</table>
+
 ---
 
 ### 🌐 Data Apps & Tools
@@ -157,13 +183,9 @@ LLM-augmented dashboarding API for German macroeconomic data.
 Visual exploration of the German yield curve over time.  
 `Python` `Matplotlib`
 
-**[TouchDesigner Projects](https://github.com/julianhilgemann/audiovisual-animations/tree/main/projects)**  
-A collection of standalone TouchDesigner projects. The larger ones are pruned to a single COMP whose network is externalized to text files, so git can diff them. Three turn Bundesbank data into sound. *Time Series Wavetable* plays a window of the monthly new-business volume of German housing loans as one cycle of a wavetable synth (detrended, interpolated, waveshaped and band-limited in NumPy) and scans it through the history since 2003, with a GLSL dashboard showing the series, oscilloscope, spectrum, sonogram and a 3D wavetable stack. *Touch the Sonogram* puts the same drone into a camera- and microphone-reactive installation drawn as a point-cloud sonogram, and *Caleidoscopic Sonogram Video* drives that point cloud with an audio track and a modulator video to make square music videos. *FerroScope* is a reusable CRT and analog-signal filter with YouTube input through yt-dlp. Smaller sketches cover a live AV set driven by an Elektron Octatrack's MIDI and audio, a music visualizer, an audio-reactive point cloud, a GPU particle swarm and noise-driven instancing studies.  
+**[TouchDesigner Projects](https://github.com/julianhilgemann/av-td-works)**  
+A collection of standalone TouchDesigner projects. The larger ones are pruned to a single COMP whose network is externalized to text files, so git can diff them. Three turn Bundesbank data into sound. *Time Series Wavetable* plays a window of the monthly new-business volume of German housing loans as one cycle of a wavetable synth (detrended, interpolated, waveshaped and band-limited in NumPy) and scans it through the history since 2003, with a GLSL dashboard showing the series, oscilloscope, spectrum, sonogram and a 3D wavetable stack. *Touch the Sonogram* puts the same drone into a camera- and microphone-reactive installation drawn as a point-cloud sonogram, and *Caleidoscopic Sonogram Video* drives that point cloud with an audio track and a modulator video to make square music videos. *FerroScope* draws sound as ferrofluid, a spike lattice raised by a kaleidoscope-folded sonogram, and ships a reusable CRT filter. Smaller sketches cover a live AV set driven by an Elektron Octatrack's MIDI and audio, a music visualizer, an audio-reactive point cloud, a GPU particle swarm and noise-driven instancing studies.  
 `TouchDesigner` `Python` `NumPy` `GLSL` `Bundesbank API`
-
-**[Datapipe: Audio-reactive Shorts](https://github.com/julianhilgemann/audiovisual-animations)** *(wip)*  
-Pipeline that turns a song into a finished 9:16 YouTube Short with zero post-production: drop an audio file into a folder, and one headless Blender render writes the upload-ready 4K, 60 fps MP4 with synced audio. Beats, transients, frequency bands and song structure (build, breakdown, drop) are analyzed on a frame-accurate grid and mapped onto a neon-tunnel scene; reactivity is tuned live in TouchDesigner and the look in a Blender side panel, and both save as recipes reused for every new song. The toolchain, template scene and a Claude-to-Blender MCP bridge are in place; the analysis and render stages are being built now.  
-`Python` `Blender` `TouchDesigner` `librosa` `PyAV` `NumPy`
 
 ---
 
