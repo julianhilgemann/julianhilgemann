@@ -8,7 +8,7 @@
 
 Business Intelligence · Analytics Engineering · Advanced Analytics
 
-[LinkedIn](https://linkedin.com/in/julian-hilgemann/) · [Email](mailto:hilgemann.julian@gmail.com) · [Website](https://julianhilgemann.com/?utm_source=github&utm_medium=referral&utm_campaign=github-profile&utm_content=bio-link)
+[LinkedIn](https://linkedin.com/in/julian-hilgemann/) · [Email](mailto:hilgemann.julian@gmail.com) · [Website](https://julianhilgemann.com/?utm_source=github&utm_medium=referral&utm_campaign=github-profile&utm_content=bio-link) · [Hyperadapted](https://hyperadapted.com/?utm_source=github&utm_medium=referral&utm_campaign=github-profile&utm_content=bio-link)
 
 I work on the layer between data infrastructure and business decisions — semantic models, KPI logic, and the reporting interfaces where numbers actually get used. Day to day that means Power BI, DAX, dbt, and SQL, with Python for anything that needs modeling or automation.
 
